@@ -50,12 +50,9 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-for (i=0; i<; i++){
-        console.log(i)
+for (let i = 0; i < fujiAcres.length; i++){
+    console.log()
 }
-for(let i=0; i<listOfNumbers.length; i++){
-    if(listOfNumbers[i] % 3 === 0){
-      console.log(`${listOfNumbers[i]} is divisible by 3`)
 
 
 totalAcres = 63
@@ -74,12 +71,10 @@ totalAcres = 63
 
 // CODE HERE
 
-
-
-let = totalAcres / (fujiAcres.length + galaAcres.length + pinkAcres)
-
-//console.log (averageDailyAcres)
-
+let totalLength = (fujiAcres.length + galaAcres.length + pinkAcres.length)
+console.log (totalLength)
+let averageDailyAcres = totalAcres / totalLength
+console.log (averageDailyAcres)
 
 
 
@@ -116,7 +111,10 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
+while (acresLeft > 0){
+    console.log()
+    score++
+  }
 
 
 // PROBLEM 4
@@ -145,11 +143,15 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
 
 
+ let fujiTons = [13, 19.5, 19.5, 13, 13, 13, 6.5]
+ let galaTons = [32.5, 13, 26, 13, 39, 13, 26]
+ let pinkTons = [6.5, 32.5, 26, 13, 6.5, 32.5, 26]
+
+console.log (fujiTons)
+console.log (galaTons)
+console.log (pinkTons)
 
 
 
@@ -172,11 +174,13 @@ let days = 0
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+ let fujiPounds = (195,000)
+ let galaPounds = (325,000)
+ let pinkPounds = (286,000)
 
-
+console.log (fujiPounds)
+console.log (galaPounds)
+console.log (pinkPounds)
 
 
 
@@ -198,12 +202,18 @@ let days = 0
 */
 
 // CODE HERE
+const fujiPrice = .89 
+const galaPrice = .64
+const pinkPrice = .55
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
 
+let fujiProfit = (fujiPrice * fujiPounds)
+let galaProfit = (galaPrice * galaPounds)
+let pinkProfit = (pinkPrice * pinkPounds)
 
+console.log(fujiProfit)
+console.log(galaProfit)
+console.log(pinkProfit)
 
 
 
@@ -219,5 +229,6 @@ let days = 0
 */
 
 // CODE HERE
+let totalProfit = (fujiProfit + galaProfit + pinkProfit)
 
-
+console.log (totalProfit)
