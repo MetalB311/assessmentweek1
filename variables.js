@@ -2,7 +2,7 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-let myName = ('Byron Peters')
+let myName = 'Byron Peters'
 console.log(myName)
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
@@ -25,7 +25,7 @@ console.log (lovesCode)
 
 //CODE HERE
 if (faveNum === 13){
-  console.log('lucky 13')
+  console.log ('lucky 13')
 } else console.log('not lucky 13')
 //////////////////PROBLEM 5////////////////////
 /*

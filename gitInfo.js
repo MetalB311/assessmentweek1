@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-let gitDefinition = ('git is a software to track changes in a set of files, used to coordinate work among multiple developers')
+let gitDefinition = 'git is a software to track changes in a set of files, used to coordinate work among multiple developers'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@ let gitDefinition = ('git is a software to track changes in a set of files, used
 */
 
 //CODE HERE
-let gitHubDefinition = ('github is an internet service for software developers using git')
+let gitHubDefinition = 'github is an internet service for software developers using git'
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@ let gitHubDefinition = ('github is an internet service for software developers u
 */
 
 //CODE HERE
-let gitInitDefinition = ('git initilize, it creates a new blank repository')
+let gitInitDefinition = 'git initilize, it creates a new blank repository'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@ let gitInitDefinition = ('git initilize, it creates a new blank repository')
 */
 
 //CODE HERE
-let gitCloneDefinition = ('to copy a repo from github and put it on my computer')
+let gitCloneDefinition = 'to copy a repo from github and put it on my computer'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@ let gitCloneDefinition = ('to copy a repo from github and put it on my computer'
 */
 
 //CODE HERE
-let gitStatusDefinition = ('gives the status of files in the current directory, letting you know if any of your files are staged and ready to commit')
+let gitStatusDefinition = 'gives the status of files in the current directory, letting you know if any of your files are staged and ready to commit'
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,8 +53,8 @@ let gitStatusDefinition = ('gives the status of files in the current directory, 
 */
 
 //CODE HERE
-let gitAddDefinition = ('this will add your "staged" document(s) and get them ready to ')
-let gitAddCode = ('git add document will add the document you specify, or just git add . will add all documents staged in the directory')
+let gitAddDefinition = 'this will add your "staged" document(s) and get them ready to '
+let gitAddCode = 'git add document will add the document you specify, or just git add . will add all documents staged in the directory'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,8 +65,8 @@ let gitAddCode = ('git add document will add the document you specify, or just g
 */
 
 //CODE HERE
-let gitCommitDefinition = ('a snapshot of your document at a certain point in time')
-let gitCommitCode = ('git commit -m initialCommit')
+let gitCommitDefinition = 'a snapshot of your document at a certain point in time'
+let gitCommitCode = 'git commit -m initialCommit'
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -74,4 +74,4 @@ let gitCommitCode = ('git commit -m initialCommit')
 */
 
 //CODE HERE
-let gitPushDefinition = ('this pushes your commited documents to github, you should be able to see your document in github')
+let gitPushDefinition = 'this pushes your commited documents to github, you should be able to see your document in github'
